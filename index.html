@@ -8,7 +8,25 @@
     <title>Word Counter</title>
 </head>
 <body>
-    <h1>Word Counter</h1>
+    <header>
+        <h1 class="main-title">Word and Character Counter</h1>
+        <p class="main-description">Start typing inside the box below!</p>
+    </header>
+
+    <main>
+        <textarea data-js="text-box" name="" cols="30" rows="10"></textarea>
+
+        <div class="counters">
+            <p>Characters</p>
+            <span data-js="characters-count">0</span>
+        </div>
+
+        <div class="counters">
+            <p>Words</p>
+            <span data-js="words-count">0</>
+        </div>
+    </main>
+
     <script src="js/app.js"></script>
 </body>
 </html>
